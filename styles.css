@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #af4c4c;
+    color: white;
+    padding: 20px;
+}
+
+#about img {
+    border-radius: 50%; /* Makes the image circular */
+    width: 200px; /* Set width */
+    height: 200px; /* Set height to keep it circular */
+    object-fit: cover; /* Ensures the image is properly cropped to fill the circle */
+}
+
+#about img:hover {
+    content: url('steve jobs.jpg');
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* General Section Styling */
+section {
+    margin: 20px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Specific Sections - Ensuring Consistency */
+#projects, #blogs {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+/* Ensure Titles Have the Same Styling */
+#projects h2, #blogs h2 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+#contact h3 {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
