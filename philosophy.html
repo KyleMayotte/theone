@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1: Amazing Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Philosophy</h1>
+<p>Principles to live by....will continue to update as things change. I got all these thoughts from books, podcasts, and many luminaries.</p>
+</header>
+<div id="essay-container"></div>
+
+<script>
+
+    fetch('philosophy.txt')
+        .then(response => response.text()) // Read the file content
+        .then(data => {
+            document.getElementById('essay-container').innerHTML = `<p>${data.replace(/\n/g, '<br>')}</p>`;
+        })
+        .catch(error => console.error('Error loading the essay:', error));
+</script>
+
+<p>I would love to hear your thoughts! <a href="mailto:mayottekyle@gmail.com">mayottekyle@gmail.com</a></p>
+
+<footer>
+    <p><a href="index.html">Back to Projects</a></p>
+</footer>
+</body>
+</html>

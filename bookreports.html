@@ -9,9 +9,45 @@
 <body>
 <header>
     <h1>Building Mental Models</h1>
-    <p>"</p>
+    <p>"If you're not using the right mental model, you're already paying the price for it by making suboptimal decisions." -Charlie Munger</p>
     <!-- Add more details about Project 1 -->
 </header>
+
+
+    <div id="essay-container">
+        <!-- Steve Jobs Section -->
+        <section class="essay-section" id="steve-jobs">
+            <h2>Steve Jobs</h2>
+            <p id="steve-jobs-content"></p>
+        </section>
+
+        <!-- The HP Way Section -->
+        <section class="essay-section" id="hp-way">
+            <h2>The HP Way</h2>
+            <p id="hp-way-content"></p>
+        </section>
+    </div>
+
+    <script>
+        // Fetch and display the first essay (Steve Jobs)
+        fetch('txtbr/Steve Jobs.txt')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('steve-jobs-content').innerHTML = data.replace(/\n/g, '<br>');
+            })
+            .catch(error => console.error('Error loading the essay:', error));
+
+        // Fetch and display the second essay (The HP Way)
+        fetch('txtbr/The Hp Way.txt')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('hp-way-content').innerHTML = data.replace(/\n/g, '<br>');
+            })
+            .catch(error => console.error('Error loading the essay:', error));
+    </script>
+
+
+
 
 <footer>
     <p><a href="index.html">Back to Projects</a></p>

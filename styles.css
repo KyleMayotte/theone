@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     text-align: center;
     background-color: #f4f4f4;
     color: #333;
@@ -7,11 +8,57 @@ body {
     padding: 0;
 }
 
+    /* Ensure the text in #essay-container is left-aligned */
+    #essay-container {
+        text-align: left; /* Left-align the content */
+
+
+    }
+
+    /* Optionally, center-align headings like h2 */
+    #essay-container h2 {
+        text-align: center;
+
+    }
+
+    h1, h2 {
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    font-weight: 300;
+
+}
+video {
+    margin-top: 50px; /* Adjust this value as needed */
+}
+
+
+
+
 header {
     background-color: #af4c4c;
     color: white;
     padding: 20px;
 }
+
+.bishop {
+    width: 80px;  /* Adjust size as needed */
+    height: auto;
+    position: absolute;
+    top: 10px;
+}
+
+.top-left {
+    left: 350px;
+}
+
+.top-right {
+    right: 350px;
+}
+
+
 
 #about img {
     border-radius: 50%; /* Makes the image circular */
@@ -23,6 +70,15 @@ header {
 #about img:hover {
     content: url('steve jobs.jpg');
 }
+
+pre {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap; /* Ensures text wraps inside the pre tag */
+    max-width: 100%; /* Prevents the content from going off the screen */
+    word-break: break-word; /* Breaks words when necessary */
+}
+
 
 ul {
     list-style: none;
@@ -57,6 +113,56 @@ section {
 }
 
 /* Specific Sections - Ensuring Consistency */
+.before-after-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.before, .after {
+    width: 200px;  /* Adjust size as needed */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.arrow {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+.description {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book-appointment {
+    display: block;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    width: fit-content;
+    margin: 20px auto;
+    transition: 0.3s;
+}
+
+.book-appointment:hover {
+    background-color: #0056b3;
+}
+
 #projects, #blogs {
     padding: 40px;
     background-color: #fff;
