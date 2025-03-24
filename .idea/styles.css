@@ -68,7 +68,7 @@ header {
 }
 
 #about img:hover {
-    content: url('steve jobs.jpg');
+    content: url('profilepic.jpg');
 }
 
 pre {
