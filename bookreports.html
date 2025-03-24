@@ -37,7 +37,7 @@
             })
             .catch(error => console.error('Error loading the Steve Jobs essay:', error));
 
-        fetch('The Hp Way.txt')  // Match exact file name
+        fetch('TheHpWay.txt')  // Match exact file name
             .then(response => response.text())
             .then(data => {
                 document.getElementById('hp-way-content').innerHTML = data.replace(/\n/g, '<br>');
