@@ -17,7 +17,7 @@
 
 <script>
 
-  fetch('txtbl/Meditation.txt')
+  fetch('Meditation.txt')
           .then(response => response.text()) // Read the file content
           .then(data => {
             document.getElementById('essay-container').innerHTML = `<p>${data.replace(/\n/g, '<br>')}</p>`;

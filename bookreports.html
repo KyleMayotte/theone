@@ -30,7 +30,7 @@
 
     <script>
         // Fetch and display the first essay (Steve Jobs)
-        fetch('txtbr/Steve Jobs.txt')
+        fetch('Steve Jobs.txt')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('steve-jobs-content').innerHTML = data.replace(/\n/g, '<br>');
@@ -38,7 +38,7 @@
             .catch(error => console.error('Error loading the essay:', error));
 
         // Fetch and display the second essay (The HP Way)
-        fetch('txtbr/The Hp Way.txt')
+        fetch('The Hp Way.txt')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('hp-way-content').innerHTML = data.replace(/\n/g, '<br>');

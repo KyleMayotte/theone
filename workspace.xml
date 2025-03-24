@@ -31,33 +31,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.blogs.html.executor": "Run",
-    "JavaScript Debug.booking.html.executor": "Run",
-    "JavaScript Debug.bookreports.html.executor": "Run",
-    "JavaScript Debug.gymnastics.html.executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.philosophy.html.executor": "Run",
-    "JavaScript Debug.project1.html.executor": "Run",
-    "JavaScript Debug.project2.html.executor": "Run",
-    "JavaScript Debug.project4.html.executor": "Run",
-    "JavaScript Debug.website.html.executor": "Run",
-    "Node.js.index.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/kylem/WebstormProjects/MyWebsite/.idea/txtad",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.blogs.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.booking.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bookreports.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.gymnastics.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.philosophy.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.project1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.project2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.project4.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.website.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kylem/WebstormProjects/MyWebsite/.idea/txtad&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kylem\WebstormProjects\MyWebsite\.idea\txtad" />
@@ -97,6 +97,7 @@
       <workItem from="1742600405146" duration="6431000" />
       <workItem from="1742738445900" duration="14874000" />
       <workItem from="1742779325041" duration="3009000" />
+      <workItem from="1742821696022" duration="2065000" />
     </task>
     <servers />
   </component>
