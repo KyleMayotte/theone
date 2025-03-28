@@ -1,7 +1,9 @@
 {
-  "name": "my-website",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "private": true
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ]
 }
