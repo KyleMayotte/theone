@@ -27,11 +27,10 @@
             <p id="hp-way-content"></p>
         </section>
 
-        <section class="essay-section" id="TheMckinseyWay">
+        <section class="essay-section" id="Mckinsey-Way">
             <h2>The Mckinsey Way</h2>
-            <p id="TheMckinseyWay-content"></p>
+            <p id="MckinseyWay-content"></p>
         </section>
-
     </div>
 
     <script>
@@ -50,16 +49,14 @@
             })
             .catch(error => console.error('Error loading The HP Way essay:', error));
 
-        fetch('The Mckinsey Way.txt')  // Match exact file name
+        fetch('The Mckinsey Way.txt')  // No 'txt/' subfolder anymore
             .then(response => response.text())
             .then(data => {
                 document.getElementById('TheMckinseyWay-content').innerHTML = data.replace(/\n/g, '<br>');
             })
-            .catch(error => console.error('Error loading The Mckinsey Way essay:', error));
+            .catch(error => console.error('Error loading the The Mckinsey Way essay:', error));
 
     </script>
-
-
 
 
 <footer>

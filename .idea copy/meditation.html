@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 1: Amazing Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>How Meditation can Impact the Mind</h1>
+  <p>I saw the benefits of meditation and they were too good not to give it a try. I will describe what my experience was like through a 30 day experiment I took notes on, why I continue to do it, and end with the science of meditation.</p>
+
+</header>
+
+<section id="Meditation">
+  <div id="essay-container"></div>
+  
+  <script>
+    fetch('Meditation.txt')  // No folder path needed
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.text();
+  })
+  .then(data => {
+    document.getElementById('essay-container').innerHTML = `<p>${data.replace(/\n/g, '<br>')}</p>`;
+  })
+  .catch(error => {
+    console.error('Error loading the essay:', error);
+    document.getElementById('essay-container').innerHTML = '<p>Error loading content.</p>';
+  });
+
+  </script>
+  </section>
+
+<footer>
+  <p><a href="index.html">Back to Projects</a></p>
+</footer>
+</body>
+</html>
