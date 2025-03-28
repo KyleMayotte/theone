@@ -26,6 +26,12 @@
             <h2>The HP Way</h2>
             <p id="hp-way-content"></p>
         </section>
+
+        <section class="essay-section" id="TheMckinseyWay">
+            <h2>The Mckinsey Way</h2>
+            <p id="TheMckinseyWay-content"></p>
+        </section>
+
     </div>
 
     <script>
@@ -43,6 +49,13 @@
                 document.getElementById('hp-way-content').innerHTML = data.replace(/\n/g, '<br>');
             })
             .catch(error => console.error('Error loading The HP Way essay:', error));
+
+        fetch('The Mckinsey Way.txt')  // Match exact file name
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('TheMckinseyWay-content').innerHTML = data.replace(/\n/g, '<br>');
+            })
+            .catch(error => console.error('Error loading The Mckinsey Way essay:', error));
 
     </script>
 
