@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Book Your Appointment</h1>
+    <p>Select a date and time within available hours.</p>
+</header>
+
+<p>Appointment bookings coming soon. In the mean time email: <a href="mailto:mayottekyle@gmail.com">mayottekyle@gmail.com</a></p>
+
+<!--<section class="booking-form">-->
+<!--    <form action="submit_booking.php" method="POST">-->
+<!--        <label for="date">Select a Date:</label>-->
+<!--        <input type="date" id="date" name="date" required>-->
+
+<!--        <label for="time">Select a Time:</label>-->
+<!--        <select id="time" name="time" required>-->
+<!--            <option value="">Select a time</option>-->
+<!--        </select>-->
+
+<!--        <button type="submit" class="book-btn">Confirm Appointment</button>-->
+<!--    </form>-->
+<!--</section>-->
+
+<footer>
+    <p><a href="index.html">Back to Home</a></p>
+</footer>
+
+<script>
+    document.getElementById("date").addEventListener("change", function() {
+        const dateInput = new Date(this.value);
+        const day = dateInput.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+        const timeDropdown = document.getElementById("time");
+
+        timeDropdown.innerHTML = '<option value="">Select a time</option>'; // Reset time options
+
+        let availableTimes = [];
+
+        if (day === 0) { // Sunday (All day)
+            availableTimes = generateTimeSlots(12, 12);
+        } else if (day >= 1 && day <= 5) { // Monday-Friday (After 6:00 PM)
+            availableTimes = generateTimeSlots(6, 9);
+        } else if (day === 6) { // Saturday (After 3:00 PM)
+            availableTimes = generateTimeSlots(1, 12);
+        }
+
+        availableTimes.forEach(time => {
+            let option = document.createElement("option");
+            option.value = time;
+            option.textContent = time;
+            timeDropdown.appendChild(option);
+        });
+    });
+
+    function generateTimeSlots(startHour, endHour) {
+        let slots = [];
+        for (let hour = startHour; hour < endHour; hour++) {
+            slots.push(`${hour}:00 PM`, `${hour}:30 PM`);
+        }
+        return slots;
+    }
+</script>
+
+</body>
+</html>

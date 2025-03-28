@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58a8a7c5-cc87-4c3f-b8c3-099aaf200f81" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2uN6ZaYKZ9MpCdzvKGRGNBH8LaI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.blogs.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.booking.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bookreports.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.gymnastics.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.philosophy.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.project1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.project2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.project4.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.website.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kylem/WebstormProjects/MyWebsite/.idea/txtad&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kylem\WebstormProjects\MyWebsite\.idea\txtad" />
+      <recent name="C:\Users\kylem\WebstormProjects\MyWebsite\.idea" />
+      <recent name="C:\Users\kylem\WebstormProjects\MyWebsite\.idea\txtbr" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kylem\WebstormProjects\MyWebsite\.idea" />
+      <recent name="C:\Users\kylem\WebstormProjects\MyWebsite\.idea\videos" />
+      <recent name="C:\Users\kylem\WebstormProjects\MyWebsite\.idea\txtbl" />
+      <recent name="C:\Users\kylem\WebstormProjects\MyWebsite" />
+      <recent name="C:\Users\kylem\WebstormProjects\MyWebsite\.idea\images" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58a8a7c5-cc87-4c3f-b8c3-099aaf200f81" name="Changes" comment="" />
+      <created>1742076742407</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742076742407</updated>
+      <workItem from="1742076744908" duration="168000" />
+      <workItem from="1742129869585" duration="5613000" />
+      <workItem from="1742135550510" duration="20000" />
+      <workItem from="1742254032383" duration="6001000" />
+      <workItem from="1742261315807" duration="206000" />
+      <workItem from="1742340537768" duration="5643000" />
+      <workItem from="1742418459192" duration="7640000" />
+      <workItem from="1742600405146" duration="6431000" />
+      <workItem from="1742738445900" duration="14874000" />
+      <workItem from="1742779325041" duration="3009000" />
+      <workItem from="1742821696022" duration="3632000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
