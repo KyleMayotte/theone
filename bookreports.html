@@ -6,22 +6,44 @@
     <title>Project 1: Amazing Project</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+
 <header>
+    <img src="bishop.png" alt="Bishop" class="bishop top-left">
+    <img src="bishop.png" alt="Bishop" class="bishop top-right">
+    
     <h1>Building Mental Models</h1>
     <p>"If you're not using the right mental model, you're already paying the price for it by making suboptimal decisions." -Charlie Munger</p>
     <!-- Add more details about Project 1 -->
+<!-- Add this navigation menu ABOVE your essay container -->
+<body>
+    <nav class="category-nav">
+        <ul>
+          <li><a href="#biographies">Biographies</a></li>
+          <li><a href="#business">Business</a></li>
+          <li><a href="#sales">Sales</a></li>
+          <li><a href="#psychology">Psychology</a></li>
+          <li><a href="#finance">Finance</a></li>
+        </ul>
+      </nav>
+ 
 </header>
 
 
-    <div id="essay-container">
-        <!-- Steve Jobs Section -->
+<div id="essay-container">
+    <!-- Biographies Category -->
+    <div class="category" id="biographies">
+        <h1 class="category-title">Biographies</h1>
+        
         <section class="essay-section" id="steve-jobs">
             <h2>Steve Jobs</h2>
             <p id="steve-jobs-content"></p>
         </section>
+    </div>
 
-        <!-- The HP Way Section -->
+    <!-- Business Category --> 
+    <div class="category" id="business">
+        <h1 class="category-title">Business</h1>
+        
         <section class="essay-section" id="hp-way">
             <h2>The HP Way</h2>
             <p id="hp-way-content"></p>
@@ -29,10 +51,50 @@
 
         <section class="essay-section" id="Mckinsey-Way">
             <h2>The Mckinsey Way</h2>
-            <p id="MckinseyWay-content"></p>
+            <p id="the-mckinseyway-content"></p>
+        </section>
+
+        <section class="essay-section">
+            <h2>Swim With The Sharks Without Being Eaten Alive</h2>
+            <p id="sharks"></p>
+        </section>
+
+        <section class="essay-section">
+            <h2>The Five Dysfunctions of a Team</h2>
+            <p id="dysfunctions"></p>
         </section>
     </div>
 
+    <!-- Sales Category -->
+    <div class="category" id="sales">
+        <h1 class="category-title">Sales</h1>
+        
+        <section class="essay-section">
+            <h2>Emotional Intelligence for Sales Success</h2>
+            <p id="salessuccess"></p>
+        </section>
+    </div>
+
+    <!-- Psychology Category -->
+    <div class="category" id="psychology">
+        <h1 class="category-title">Psychology</h1>
+        
+        <section class="essay-section">
+            <h2>Surrounded by Idiots</h2>
+            <p id="idiots"></p>
+        </section>
+    </div>
+
+    <!-- Finance Category -->
+    <div class="category" id="finance">
+        <h1 class="category-title">Finance</h1>
+        
+        <section class="essay-section">
+            <h2>Psychology of Money</h2>
+            <p id="money"></p>
+        </section>
+    </div>
+</div>
     <script>
         // Fetch and display the first essay (Steve Jobs)
         fetch('Steve Jobs.txt')  // No 'txt/' subfolder anymore
@@ -49,13 +111,47 @@
             })
             .catch(error => console.error('Error loading The HP Way essay:', error));
 
-        fetch('The Mckinsey Way.txt')  // No 'txt/' subfolder anymore
+        fetch('themckinseyway.txt')  // Match 'the-mckinseyway-content' to the id above exactly
             .then(response => response.text())
             .then(data => {
-                document.getElementById('TheMckinseyWay-content').innerHTML = data.replace(/\n/g, '<br>');
+                document.getElementById('the-mckinseyway-content').innerHTML = data.replace(/\n/g, '<br>');
             })
-            .catch(error => console.error('Error loading the The Mckinsey Way essay:', error));
+            .catch(error => console.error('Error loading The Mckinsey Way essay:', error));
 
+            fetch('shark.txt')  
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('sharks').innerHTML = data.replace(/\n/g, '<br>');
+            })
+            .catch(error => console.error('Error loading the book name essay:', error));
+
+            fetch('eiforsales.txt')  
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('salessuccess').innerHTML = data.replace(/\n/g, '<br>');
+            })
+            .catch(error => console.error('Error loading the book name essay:', error));
+
+            fetch('dysfunctions.txt')  
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('dysfunctions').innerHTML = data.replace(/\n/g, '<br>');
+            })
+            .catch(error => console.error('Error loading the book name essay:', error));
+
+            fetch('idiot.txt')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('idiots').innerHTML = data.replace(/\n/g, '<br>');
+            })
+            .catch(error => console.error('Error loading the book name essay:', error));
+
+            fetch('psychofmoney.txt')  
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('money').innerHTML = data.replace(/\n/g, '<br>');
+            })
+            .catch(error => console.error('Error loading the book name essay:', error));
     </script>
 
 

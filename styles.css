@@ -68,7 +68,7 @@ header {
 }
 
 #about img:hover {
-    content: url('steve jobs.jpg');
+    content: url('profilepic.jpg');
 }
 
 pre {
@@ -111,6 +111,44 @@ section {
     width: 80%;
     max-width: 800px;
 }
+/*BOOK REPORT Catgeory*/
+/* Center everything */
+/* Center everything */
+#essay-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Category container - centered with single border */
+  .category {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto 40px; /* Centers horizontally with 40px bottom margin */
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #af4c4c; /* Single outer border */
+  }
+  
+  /* Book reports - no borders, centered content */
+  .essay-section {
+    width: 96%; /* Takes full width of parent */
+    margin: 15px 0;
+    padding: 15px;
+    background-color: white;
+  }
+  
+  /* Centered category title */
+  .category-title {
+    color: #af4c4c;
+    margin: 0 auto 20px; /* Centers title */
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000000;
+    text-align: center;
+    width: fit-content; /* Makes border only as wide as text */
+  }
 
 /* Specific Sections - Ensuring Consistency */
 .before-after-container {
